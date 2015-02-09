@@ -14,9 +14,9 @@
  * limitations under the License.
  */
  
-var LF = require('console-winston-syslog').LoggerFactory;
-var console = (new LF('Other')).logger;
-var browser = (new LF('Other')).logger;
+var LoggerFactory = require('console-winston-syslog').LoggerFactory;
+var console = (new LoggerFactory('Other')).logger;
+var browser = (new LoggerFactory('Other')).logger;
     browser.transports.posixSyslog.level = 'debug';
 
 var path = require('path');
