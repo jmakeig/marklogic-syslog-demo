@@ -1,0 +1,1 @@
+This is a demo to exercise jmakeig/marklogic-syslog-server and jmakeig/marklogic-syslog-viewer. It demonstrates a browser client, a Node.js middle tier, and a MarkLogic database all logging to syslog.
